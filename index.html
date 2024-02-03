@@ -15,44 +15,119 @@
 <body>
 
 <!--
-absoulte path
-root path
-relative path
+
+1. kavindu
+2. pathum
+3. saman
+
+a. java
+b. pyton
+c. C#
+
+> Ordered list
+> unordered list
+> definition list
+
+> nested list
+
 -->
-<img src="assets/images/ijse.png" title="ijse.lk" alt="ijse-logo" width="100">
+<!-- ordered list -->
+<ol type="i">
+    <li>Kavindu</li>
+    <li>Pathum</li>
+    <li>Saman</li>
+</ol>
 
-<!--
-large
-medium
-small
--->
-<picture>
-    <source media="(min-width: 1000px)" srcset="assets/images/large.jpg">
-    <source media="(min-width: 800px)" srcset="assets/images/medium.jpg">
-    <img src="assets/images/small.jpg" title="iphone" alt="iphone">
-</picture>
+<!-- unordered list
+    types of unordered list
+    1. disc
+    2. circle
+    3. square
+ -->
+<ul type="disc">
+    <li>Kavindu</li>
+    <li>Pathum</li>
+    <li>Saman</li>
+</ul>
 
-<video
-        controls
-        autoplay
-        loop
-        muted
-        poster="assets/images/car-post.png"
-        width="700px"
-        height="400px"
->
-    <source src="assets/videos/car.mp42" type="video/mp4">
-    <source src="assets/videos/car.webm" type="video/webm">
-    <track label="English" kind="subtitles" src="assets/sub/sample.vtt" srclang="en">
-    <track label="Arabic" kind="subtitles" src="assets/sub/arabic.vtt" srclang="ar" default>
-    Your browser does not support the video tag.
-</video>
+<!-- definition list -->
+<dl>
+    <dt>Lang</dt> <!-- definition term -->
+    <dd>Java</dd> <!-- definition detail -->
+    <dd>Python</dd> <!-- definition detail -->
+    <dd>C</dd> <!-- definition detail -->
+
+    <dt>Frameworks</dt>
+    <dd>ReactJS</dd>
+    <dd>NextJS</dd>
+    <dd>VueJS</dd>
+</dl>
+
+<!-- nested list -->
+<ul>
+    <li>
+        Kavindu
+        <ol>
+            <li>Java</li>
+            <li>Python</li>
+        </ol>
+    </li>
+    <li>
+        Pathum
+        <ol>
+            <li>C</li>
+            <li>C#</li>
+            <li>Go</li>
+        </ol>
+    </li>
+    <li>Kamal</li>
+    <li>Ranil</li>
+</ul>
 
 
-<audio controls>
-    <source src="assets/audio/audio_file2.mp3" type="audio/mp3">
-    Your browser does not support the audio tag.
-</audio>
+
+<ol>
+    <li>
+        Languages
+        <ol>
+            <li>
+                Java
+                <ol type="a">
+                    <li>Funtional Programming</li>
+                    <li>Object Oriented Programming</li>
+                    <li>Java EE</li>
+                </ol>
+            </li>
+            <li>Python</li>
+            <li>C</li>
+        </ol>
+    </li>
+    <li>
+        Frameworks
+        <ul>
+            <li>
+                ReactJs
+                <dl>
+                    <dt>With JS</dt>
+                    <dd>Fundamentals</dd>
+                    <dd>Components</dd>
+                    <dd>Routes</dd>
+                    <dd>Redux</dd>
+
+                    <dt>With TS</dt>
+                    <dd>Fundamentals</dd>
+                    <dd>Components</dd>
+                    <dd>Routes</dd>
+                    <dd>Redux</dd>
+                </dl>
+            </li>
+            <li>NextJs</li>
+            <li>VueJs</li>
+        </ul>
+    </li>
+</ol>
+
+
 
 </body>
 
